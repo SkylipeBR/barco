@@ -13,8 +13,14 @@
 
 .banner
 {
-    height: 100vh;
+    height: 130vh;
     width: 100%;
+}
+
+.banner #frozen
+{
+    margin-top: 300px;
+    width: 1423px;
 }
 
 .banner header
@@ -79,8 +85,17 @@
 .banner-content .banner-content-text h1
 {
     font-size: 4em;
+    color: #4b00ad;
+    text-transform: uppercase;
     width: 600px;
     line-height: 60px;
+}
+
+.banner-content .banner-content-text p
+{
+    margin: 5px 0px;
+    font-size: 1.1em;
+    text-transform: uppercase;
 }
 
 .banner-content .banner-content-text #btn
@@ -121,6 +136,66 @@
     padding: 50px;
     background: #055055;
 }
+
+.perguntas #titulo-perguntas
+{
+    color: #fff;
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.perguntas .cores
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.perguntas .cores #branco
+{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+
+.perguntas .cores #amarelo
+{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 50%;
+    background: rgb(238, 255, 0);
+}
+
+.perguntas .cores #verde    
+{
+
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 50%;
+    background: rgb(9, 255, 0);
+}
+
+.perguntas .cores #azul
+{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 50%;
+    background: rgb(0, 38, 255);
+}
+
+.perguntas .cores #roxo
+{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 50%;
+    background: rgb(119, 0, 255);
+}
+
+
 
 .perguntas #img-banner
 {
